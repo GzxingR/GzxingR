@@ -31,7 +31,7 @@
 ## 📫 联系方式
 
 - GitHub：[GzxingR](https://github.com/GzxingR)
-- 邮箱：[your.email@example.com]
-- 个人网站/博客：[你的个人网站链接]
+- 邮箱：[gzxing_in@163.com]
+- 个人网站/博客：[暂无]
 
 感谢你访问我的 GitHub 主页，期待与你在编程的旅程中相遇！ 🚀
