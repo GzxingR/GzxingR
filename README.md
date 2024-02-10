@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="[https://your-image-url.com/your-profile-image.png](https://avatars.githubusercontent.com/u/65899980?v=4)" alt="Profile Image" width="150" height="150">
-</p>
-
 # 👋 你好，我是 GzxingR！
 
 欢迎来到我的 GitHub 主页！我是一名热爱技术的学习者，目前还在探索中。尽管我目前没有具体的项目，但我对以下领域有浓厚兴趣：
