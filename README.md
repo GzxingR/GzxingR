@@ -1,37 +1,38 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="GzxingR — 安全研究 / AI Agent 工程 / 系统工具链" src="assets/hero-light.svg" width="100%">
+</picture>
 
-# 👋 你好，我是 GzxingR！
+做本地优先的安全工具和 Agent 系统。偏好在真实机器上跑通、经得起验证、不靠外部服务才能活的东西。
 
-欢迎来到我的 GitHub 主页！我是一名热衷于编程的学习者，尽管我目前的技能还有限，但我充满了学习和探索的热情！
+*I build local-first security tooling and agent systems — things that run on real machines, verify themselves, and don't depend on a cloud to work.*
 
-## 🚀 我的技能
+## 现在在做
 
-- **Java：** 有一定经验，喜欢使用 Java 进行后端开发。
-- **C语言：** 基础扎实，曾完成一些小型项目。
-- **编程兴趣：** 对算法、数据结构和软件设计模式感兴趣。
+| 项目 | 是什么 | 技术 |
+| :--- | :--- | :--- |
+| [ARTEX](https://github.com/GzxingR/ARTEX) | AI 自主渗透测试系统，当前做本地化改造与流程收敛 | Go · Next.js |
+| [gameboost](https://github.com/GzxingR/gameboost) | 游戏前冻结后台进程、玩完精确还原：真冻结 + 工作集回收 + QoS 快照 | PowerShell |
+| [pi-desktop-genui](https://github.com/GzxingR/pi-desktop-genui) | 把 JSON 规格渲染成 44 种真实可交互组件，手写 SVG 图表，动作回传模型 | JavaScript |
+| [Translator-NeoForge](https://github.com/GzxingR/Translator-NeoForge) | NeoForge 1.21.1 游戏内翻译模组，物品与界面文本实时英译中 | Java |
 
-## 🌱 正在学习
+## 技术栈
 
-我目前正专注于以下方面的学习：
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="Go, Python, TypeScript, JavaScript, Java, C, PowerShell, Lua, Docker, Cloudflare Workers" src="assets/stack-light.svg" width="100%">
+</picture>
 
-- **深入学习 Java 生态系统**
-- **拓展数据结构和算法知识**
-- **探索前端开发技术**
+## 最近更新
 
-## 🛠️ 项目
+<!-- BEGIN:RECENT -->
+<!-- END:RECENT -->
 
-虽然目前还没有很多具体项目，还在加紧努力
+## 联系
 
-<!--- [项目名称1](项目链接1)：简要描述项目1。
-- [项目名称2](项目链接2)：简要描述项目2。
--->
-## 🤝 开源合作
+- 邮箱：[gzxing_in@163.com](mailto:gzxing_in@163.com)
+- 主页：https://github.com/GzxingR
 
-我虽然技能有限，但我非常愿意与其他开发者合作，共同学习和成长。如果你有任何建议、问题，或者想要一起进行项目开发，都欢迎随时联系我！
-
-## 📫 联系方式
-
-- GitHub：[GzxingR](https://github.com/GzxingR)
-- 邮箱：[gzxing_in@163.com]
-- 个人网站/博客：[暂无]
-
-感谢你访问我的 GitHub 主页，期待与你在编程的旅程中相遇！ 🚀
+<sub>这个页面的图表由仓库内的 Actions 定时生成，不依赖任何第三方统计服务。</sub>

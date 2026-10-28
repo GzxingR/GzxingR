@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-label="GzxingR — 安全研究 / AI Agent 工程 / 系统工具链">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1A212B" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38E1C9" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#38E1C9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B0E14" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#0B0E14" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#0B0E14" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="280" rx="14" fill="#0B0E14"/>
+  <rect width="1280" height="280" rx="14" fill="url(#g)" opacity="0.55"/>
+  <rect width="1280" height="280" rx="14" fill="url(#fade)"/>
+  <ellipse cx="150" cy="30" rx="380" ry="210" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1278" height="278" rx="14" fill="none" stroke="#1E2530"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+    <text x="76" y="106" fill="#E9EEF4" font-size="54" font-weight="700" letter-spacing="7">GZXINGR</text>
+    <rect x="76" y="124" width="58" height="3" fill="#38E1C9"/>
+    <text x="76" y="166" fill="#A7B4C1" font-size="19" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">安全研究 · AI Agent 工程 · 系统工具链</text>
+    <text x="76" y="194" fill="#65717F" font-size="12.5" letter-spacing="0.8">SECURITY RESEARCH / AGENT ENGINEERING / SYSTEMS TOOLING</text>
+    <circle cx="82" cy="236" r="3" fill="#38E1C9"/>
+    <text x="96" y="240" fill="#65717F" font-size="11.5" letter-spacing="0.8">WINDOWS · LOCAL-FIRST · ZERO-DEPENDENCY</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+    <rect x="744" y="44" width="456" height="196" rx="10" fill="#0F141C" stroke="#212B38"/>
+    <circle cx="768" cy="66" r="4" fill="#2A3442"/>
+    <circle cx="786" cy="66" r="4" fill="#2A3442"/>
+    <circle cx="804" cy="66" r="4" fill="#2A3442"/>
+    <line x1="744" y1="84" x2="1200" y2="84" stroke="#1A2230"/>
+    <text x="768" y="116" font-size="13" fill="#8FA2B3"><tspan fill="#38E1C9">$</tspan> whoami</text>
+    <text x="768" y="140" font-size="13" fill="#D6DEE8">gzxingr — 安全研究 &amp; 工程实现</text>
+    <text x="768" y="170" font-size="13" fill="#8FA2B3"><tspan fill="#38E1C9">$</tspan> ls ~/focus</text>
+    <text x="768" y="194" font-size="13" fill="#D6DEE8">agents/  tooling/  reversing/</text>
+    <text x="768" y="222" font-size="13" fill="#8FA2B3"><tspan fill="#38E1C9">$</tspan> <tspan fill="#38E1C9">▌</tspan></text>
+  </g>
+</svg>

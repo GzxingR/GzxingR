@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-label="GzxingR — 安全研究 / AI Agent 工程 / 系统工具链">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#E8E4DB" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0E7C6B" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0E7C6B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="280" rx="14" fill="#FBFAF7"/>
+  <rect width="1280" height="280" rx="14" fill="url(#g)" opacity="0.6"/>
+  <ellipse cx="150" cy="30" rx="380" ry="210" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1278" height="278" rx="14" fill="none" stroke="#E2DED6"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+    <text x="76" y="106" fill="#12151A" font-size="54" font-weight="700" letter-spacing="7">GZXINGR</text>
+    <rect x="76" y="124" width="58" height="3" fill="#0E7C6B"/>
+    <text x="76" y="166" fill="#46515D" font-size="19" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">安全研究 · AI Agent 工程 · 系统工具链</text>
+    <text x="76" y="194" fill="#8A8578" font-size="12.5" letter-spacing="0.8">SECURITY RESEARCH / AGENT ENGINEERING / SYSTEMS TOOLING</text>
+    <circle cx="82" cy="236" r="3" fill="#0E7C6B"/>
+    <text x="96" y="240" fill="#8A8578" font-size="11.5" letter-spacing="0.8">WINDOWS · LOCAL-FIRST · ZERO-DEPENDENCY</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+    <rect x="744" y="44" width="456" height="196" rx="10" fill="#FFFFFF" stroke="#E4E0D8"/>
+    <circle cx="768" cy="66" r="4" fill="#E0DBD1"/>
+    <circle cx="786" cy="66" r="4" fill="#E0DBD1"/>
+    <circle cx="804" cy="66" r="4" fill="#E0DBD1"/>
+    <line x1="744" y1="84" x2="1200" y2="84" stroke="#EDE9E0"/>
+    <text x="768" y="116" font-size="13" fill="#6B7683"><tspan fill="#0E7C6B">$</tspan> whoami</text>
+    <text x="768" y="140" font-size="13" fill="#1B1F26">gzxingr — 安全研究 &amp; 工程实现</text>
+    <text x="768" y="170" font-size="13" fill="#6B7683"><tspan fill="#0E7C6B">$</tspan> ls ~/focus</text>
+    <text x="768" y="194" font-size="13" fill="#1B1F26">agents/  tooling/  reversing/</text>
+    <text x="768" y="222" font-size="13" fill="#6B7683"><tspan fill="#0E7C6B">$</tspan> <tspan fill="#0E7C6B">▌</tspan></text>
+  </g>
+</svg>
