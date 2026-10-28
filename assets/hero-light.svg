@@ -1,104 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="366" viewBox="0 0 960 366" role="img" aria-label="GZXINGR — 角色卡">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-label="GZXINGR — vibe coder">
   <defs>
-    <pattern hid="x" id="halftone" width="9" height="9" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#D6487A" opacity="0.55"/>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#D6487A" opacity="0.12"/>
     </pattern>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FCFBF8"/>
-      <stop offset="0.6" stop-color="#F6F3EE"/>
+      <stop offset="0.55" stop-color="#F6F3EE"/>
       <stop offset="1" stop-color="#EFEAE3"/>
     </linearGradient>
-    <linearGradient id="b1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0E7C6B"/><stop offset="1" stop-color="#2F6FD0"/></linearGradient>
-    <linearGradient id="b2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D6487A"/><stop offset="1" stop-color="#B8860B"/></linearGradient>
-    <linearGradient id="b3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6B5BD2"/><stop offset="1" stop-color="#0E7C6B"/></linearGradient>
     <style>
-      .f{animation:i .5s ease both}
-      .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}.d4{animation-delay:.35s}.d5{animation-delay:.45s}
-      @keyframes i{from{opacity:0}to{opacity:1}}
-      .g1{transform-origin:left;animation:grow 1s .3s cubic-bezier(.22,1,.36,1) both}
-      @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-      .cur{animation:bl 1.2s steps(1,end) infinite}
+      .cur{animation:bl 1.1s steps(1,end) infinite}
       @keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}
-      .sp{animation:tw 2.6s ease-in-out infinite}
-      .sp2{animation:tw 3.4s .8s ease-in-out infinite}
-      @keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+      .sp{animation:tw 2.8s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.28}50%{opacity:.95}}
     </style>
   </defs>
 
-  <rect width="960" height="366" rx="16" fill="url(#bg)"/>
-  <rect x="898" y="0" width="62" height="58" fill="url(#halftone)"/>
-  <rect x="1.5" y="1.5" width="957" height="363" rx="16" fill="none" stroke="#DCD6CB" stroke-width="1.5"/>
-  <rect x="7" y="7" width="946" height="352" rx="13" fill="none" stroke="#D6487A" stroke-opacity="0.2"/>
-
-  <g stroke="#D6487A" stroke-width="2" opacity="0.7" stroke-linecap="round">
-    <path d="M16 30V16h14"/><path d="M944 30V16h-14"/>
-    <path d="M16 336v14h14"/><path d="M944 336v14h-14"/>
-  </g>
+  <rect width="960" height="430" rx="18" fill="url(#bgG)"/>
+  <rect width="960" height="430" rx="18" fill="url(#dots)"/>
+  <rect x="1" y="1" width="958" height="428" rx="18" fill="none" stroke="#DCD6CB"/>
 
   <g font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
-    <g class="f d1">
-      <text x="48" y="52" fill="#8A8578" font-size="10" letter-spacing="3.5" font-family="ui-monospace, Menlo, Consolas, monospace">CHARACTER SHEET / 01</text>
-      <text x="48" y="98" fill="#12151A" font-size="40" font-weight="800" letter-spacing="2.5">GZXINGR</text>
-      <text x="50" y="122" fill="#D6487A" font-size="12.5" letter-spacing="1.8">安全研究员 · 本地优先派</text>
-      <text x="232" y="122" fill="#9A948A" font-size="10" letter-spacing="1" font-family="'Yu Gothic', 'Meiryo', sans-serif">セキュリティ・リサーチャー</text>
-      <text x="50" y="140" fill="#6F6A60" font-size="9.5" letter-spacing="1.1" font-family="ui-monospace, Menlo, Consolas, monospace">SECURITY RESEARCH / AGENT ENGINEERING / TOOLING</text>
+    <text x="48" y="48" fill="#8A8578" font-size="11" letter-spacing="3" font-family="ui-monospace, Menlo, Consolas, monospace">GZXINGR — VIBE CODER / SINCE 2020</text>
+    <text x="912" y="48" fill="#A8A29A" font-size="10" letter-spacing="2" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace">SESSION 037</text>
+    <line x1="48" y1="62" x2="912" y2="62" stroke="#E4E0D8"/>
+
+    <!-- 1 · 我 -->
+    <path d="M896 96l15 10-15 10z" fill="#EDE7F4"/>
+    <rect x="556" y="80" width="340" height="52" rx="16" fill="#EDE7F4"/>
+    <text x="584" y="113" fill="#1B1F26" font-size="15.5">想把主页重做一下，别弄成简历。</text>
+
+    <!-- 2 · AI -->
+    <rect x="48" y="152" width="30" height="30" rx="9" fill="#D6487A" opacity="0.18"/>
+    <text x="63" y="172" fill="#D6487A" font-size="12" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">AI</text>
+    <path d="M96 168l-15 10 15 10z" fill="#FFFFFF"/>
+    <rect x="96" y="152" width="236" height="52" rx="16" fill="#FFFFFF" stroke="#D6487A" stroke-opacity="0.5"/>
+    <text x="122" y="185" fill="#1B1F26" font-size="15.5">那你现在算什么身份？</text>
+
+    <!-- 3 · 我（核心） -->
+    <path d="M896 253l15 10-15 10z" fill="#EDE7F4"/>
+    <rect x="392" y="224" width="504" height="78" rx="16" fill="#EDE7F4"/>
+    <text x="420" y="256" fill="#12151A" font-size="16.5" font-weight="600">算 vibe coder 吧。</text>
+    <text x="420" y="284" fill="#3A4350" font-size="15">想法我出，代码它写，出事我背。</text>
+
+    <!-- 4 · AI -->
+    <rect x="48" y="320" width="30" height="30" rx="9" fill="#D6487A" opacity="0.18"/>
+    <text x="63" y="340" fill="#D6487A" font-size="12" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">AI</text>
+    <path d="M96 336l-15 10 15 10z" fill="#FFFFFF"/>
+    <rect x="96" y="320" width="284" height="52" rx="16" fill="#FFFFFF" stroke="#D6487A" stroke-opacity="0.5"/>
+    <text x="122" y="353" fill="#1B1F26" font-size="15.5">明白了。技能表就不放了。</text>
+
+    <line x1="48" y1="392" x2="912" y2="392" stroke="#E4E0D8"/>
+    <text x="48" y="414" fill="#9A948A" font-size="11" font-family="ui-monospace, Menlo, Consolas, monospace">NOW</text>
+    <text x="92" y="414" fill="#5A6472" font-size="11.5">在造 pi-desktop-genui · 在拆 ARTEX · 在删一半写废的东西</text>
+    <rect class="cur" x="876" y="402" width="7" height="14" fill="#0E7C6B"/>
+
+    <g fill="#D6487A" opacity="0.55" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="11" letter-spacing="1.5">
+      <text x="300" y="112" transform="rotate(-7 300 112)">ピコン</text>
+      <text x="330" y="300" transform="rotate(5 330 300)">ドン</text>
     </g>
-
-    <!-- 状态条 -->
-    <g class="f d2" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#7C8AAE">
-      <text x="48" y="166">REPOS</text><text x="196" y="166" fill="#2A3138" font-size="10">37</text>
-      <rect x="48" y="172" width="148" height="5" rx="2.5" fill="#EAE5DC"/>
-      <rect x="48" y="172" width="110" height="5" rx="2.5" fill="url(#b1)" class="g1"/>
-
-      <text x="48" y="194">CONTRIBS</text><text x="196" y="194" fill="#2A3138" font-size="10">183</text>
-      <rect x="48" y="200" width="148" height="5" rx="2.5" fill="#EAE5DC"/>
-      <rect x="48" y="200" width="136" height="5" rx="2.5" fill="url(#b2)" class="g1"/>
-
-      <text x="48" y="222">STARS</text><text x="196" y="222" fill="#2A3138" font-size="10">77</text>
-      <rect x="48" y="228" width="148" height="5" rx="2.5" fill="#EAE5DC"/>
-      <rect x="48" y="228" width="114" height="5" rx="2.5" fill="url(#b3)" class="g1"/>
-    </g>
-
-    <g class="f d3"><text x="466" y="52" fill="#8A8578" font-size="10" letter-spacing="3.5" font-family="ui-monospace, Menlo, Consolas, monospace">SKILLS / EQUIPPED</text></g>
-
-    <g class="f d4" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12.5">      <g><rect x="466" y="66" width="214" height="50" rx="10" fill="#FFFFFF" stroke="#E4E0D8"/>
-        <rect x="478" y="79" width="24" height="24" rx="6" fill="#0E7C6B" opacity="0.18"/>
-        <text x="490" y="95" fill="#0E7C6B" font-size="9.5" text-anchor="middle" font-weight="700">Go</text>
-        <text x="512" y="95" fill="#1B1F26">Go</text><text x="512" y="109" fill="#8A8578" font-size="9.5">后端 · 渗透工具</text></g>
-      <g><rect x="698" y="66" width="214" height="50" rx="10" fill="#FFFFFF" stroke="#E4E0D8"/>
-        <rect x="710" y="79" width="24" height="24" rx="6" fill="#D6487A" opacity="0.18"/>
-        <text x="722" y="95" fill="#D6487A" font-size="9" text-anchor="middle" font-weight="700">TS</text>
-        <text x="744" y="95" fill="#1B1F26">TypeScript</text><text x="744" y="109" fill="#8A8578" font-size="9.5">前端 · Agent UI</text></g>
-      <g><rect x="466" y="124" width="214" height="50" rx="10" fill="#FFFFFF" stroke="#E4E0D8"/>
-        <rect x="478" y="137" width="24" height="24" rx="6" fill="#6B5BD2" opacity="0.18"/>
-        <text x="490" y="153" fill="#6B5BD2" font-size="8.5" text-anchor="middle" font-weight="700">PY</text>
-        <text x="512" y="153" fill="#1B1F26">Python</text><text x="512" y="167" fill="#8A8578" font-size="9.5">脚本 · 自动化</text></g>
-      <g><rect x="698" y="124" width="214" height="50" rx="10" fill="#FFFFFF" stroke="#E4E0D8"/>
-        <rect x="710" y="137" width="24" height="24" rx="6" fill="#2F6FD0" opacity="0.18"/>
-        <text x="722" y="153" fill="#2F6FD0" font-size="8.5" text-anchor="middle" font-weight="700">PS</text>
-        <text x="744" y="153" fill="#1B1F26">PowerShell</text><text x="744" y="167" fill="#8A8578" font-size="9.5">Windows 系统层</text></g>
-      <g><rect x="466" y="182" width="214" height="50" rx="10" fill="#FFFFFF" stroke="#E4E0D8"/>
-        <rect x="478" y="195" width="24" height="24" rx="6" fill="#B8860B" opacity="0.18"/>
-        <text x="490" y="211" fill="#B8860B" font-size="8.5" text-anchor="middle" font-weight="700">JV</text>
-        <text x="512" y="211" fill="#1B1F26">Java</text><text x="512" y="225" fill="#8A8578" font-size="9.5">NeoForge 模组</text></g>
-      <g><rect x="698" y="182" width="214" height="50" rx="10" fill="#FFFFFF" stroke="#E4E0D8"/>
-        <rect x="710" y="195" width="24" height="24" rx="6" fill="#0E7C6B" opacity="0.14"/>
-        <text x="722" y="211" fill="#0E7C6B" font-size="8.5" text-anchor="middle" font-weight="700">LU</text>
-        <text x="744" y="211" fill="#1B1F26">Lua</text><text x="744" y="225" fill="#8A8578" font-size="9.5">Steam 清单</text></g>
-    </g>
-
-    <g class="f d5">
-      <rect x="48" y="252" width="864" height="86" rx="12" fill="#FFFFFF" fill-opacity="0.94" stroke="#E4E0D8"/>
-      <rect x="48" y="241" width="106" height="25" rx="7" fill="#D6487A"/>
-      <text x="101" y="258" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1.2">GZXINGR</text>
-      <text x="70" y="287" fill="#1B1F26" font-size="14.5" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif">本地优先、在真实机器上跑得通、不靠云也能活的东西，我才写。</text>
-      <text x="70" y="311" fill="#6F6A60" font-size="10.5" font-family="ui-monospace, Menlo, Consolas, monospace">Security research, agent engineering, and tools that verify themselves on real hardware.</text>
-      <rect class="cur" x="878" y="296" width="7" height="15" fill="#0E7C6B"/>
-    </g>
-
-    <g fill="#D6487A">
-      <path class="sp" d="M436 104l2.8 7.4 7.4 2.8-7.4 2.8-2.8 7.4-2.8-7.4-7.4-2.8 7.4-2.8z"/>
-      <path class="sp2" d="M932 274l2.2 5.8 5.8 2.2-5.8 2.2-2.2 5.8-2.2-5.8-5.8-2.2 5.8-2.2z"/>
-    </g>
+    <path class="sp" d="M300 226l2.6 7 7 2.6-7 2.6-2.6 7-2.6-7-7-2.6 7-2.6z" fill="#D6487A"/>
   </g>
 </svg>
