@@ -39,4 +39,4 @@ gameboost 是一个晚上提交 12 次改出来的。pi-desktop-genui 到现在�
 
 ## 联系
 
-GitHub 任意一个公开仓库开 issue 就行，或者发邮件到 [gzxing_in@163.com](mailto:gzxing_in@163.com)。
+任意一个公开仓库开 issue 就行，说清楚想聊什么。
