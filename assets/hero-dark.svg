@@ -1,44 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-label="GzxingR — 安全研究 / AI Agent 工程 / 系统工具链">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="366" viewBox="0 0 960 366" role="img" aria-label="GZXINGR — 角色卡">
   <defs>
-    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#1A212B" stroke-width="1"/>
+    <pattern hid="x" id="halftone" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FF8FB1" opacity="0.55"/>
     </pattern>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#38E1C9" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#38E1C9" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0B0E14" stop-opacity="0"/>
-      <stop offset="0.55" stop-color="#0B0E14" stop-opacity="0.75"/>
-      <stop offset="1" stop-color="#0B0E14" stop-opacity="1"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.6" stop-color="#0D1426"/>
+      <stop offset="1" stop-color="#141B30"/>
     </linearGradient>
+    <linearGradient id="b1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5EE0D0"/><stop offset="1" stop-color="#7FB2FF"/></linearGradient>
+    <linearGradient id="b2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF8FB1"/><stop offset="1" stop-color="#FFC24B"/></linearGradient>
+    <linearGradient id="b3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9B8CFF"/><stop offset="1" stop-color="#5EE0D0"/></linearGradient>
+    <style>
+      .f{animation:i .5s ease both}
+      .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}.d4{animation-delay:.35s}.d5{animation-delay:.45s}
+      @keyframes i{from{opacity:0}to{opacity:1}}
+      .g1{transform-origin:left;animation:grow 1s .3s cubic-bezier(.22,1,.36,1) both}
+      @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+      .cur{animation:bl 1.2s steps(1,end) infinite}
+      @keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}
+      .sp{animation:tw 2.6s ease-in-out infinite}
+      .sp2{animation:tw 3.4s .8s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+    </style>
   </defs>
 
-  <rect width="1280" height="280" rx="14" fill="#0B0E14"/>
-  <rect width="1280" height="280" rx="14" fill="url(#g)" opacity="0.55"/>
-  <rect width="1280" height="280" rx="14" fill="url(#fade)"/>
-  <ellipse cx="150" cy="30" rx="380" ry="210" fill="url(#glow)"/>
-  <rect x="1" y="1" width="1278" height="278" rx="14" fill="none" stroke="#1E2530"/>
+  <rect width="960" height="366" rx="16" fill="url(#bg)"/>
+  <rect x="898" y="0" width="62" height="58" fill="url(#halftone)"/>
+  <rect x="1.5" y="1.5" width="957" height="363" rx="16" fill="none" stroke="#2B3550" stroke-width="1.5"/>
+  <rect x="7" y="7" width="946" height="352" rx="13" fill="none" stroke="#FF8FB1" stroke-opacity="0.2"/>
 
-  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
-    <text x="76" y="106" fill="#E9EEF4" font-size="54" font-weight="700" letter-spacing="7">GZXINGR</text>
-    <rect x="76" y="124" width="58" height="3" fill="#38E1C9"/>
-    <text x="76" y="166" fill="#A7B4C1" font-size="19" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">安全研究 · AI Agent 工程 · 系统工具链</text>
-    <text x="76" y="194" fill="#65717F" font-size="12.5" letter-spacing="0.8">SECURITY RESEARCH / AGENT ENGINEERING / SYSTEMS TOOLING</text>
-    <circle cx="82" cy="236" r="3" fill="#38E1C9"/>
-    <text x="96" y="240" fill="#65717F" font-size="11.5" letter-spacing="0.8">WINDOWS · LOCAL-FIRST · ZERO-DEPENDENCY</text>
+  <g stroke="#FF8FB1" stroke-width="2" opacity="0.7" stroke-linecap="round">
+    <path d="M16 30V16h14"/><path d="M944 30V16h-14"/>
+    <path d="M16 336v14h14"/><path d="M944 336v14h-14"/>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
-    <rect x="744" y="44" width="456" height="196" rx="10" fill="#0F141C" stroke="#212B38"/>
-    <circle cx="768" cy="66" r="4" fill="#2A3442"/>
-    <circle cx="786" cy="66" r="4" fill="#2A3442"/>
-    <circle cx="804" cy="66" r="4" fill="#2A3442"/>
-    <line x1="744" y1="84" x2="1200" y2="84" stroke="#1A2230"/>
-    <text x="768" y="116" font-size="13" fill="#8FA2B3"><tspan fill="#38E1C9">$</tspan> whoami</text>
-    <text x="768" y="140" font-size="13" fill="#D6DEE8">gzxingr — 安全研究 &amp; 工程实现</text>
-    <text x="768" y="170" font-size="13" fill="#8FA2B3"><tspan fill="#38E1C9">$</tspan> ls ~/focus</text>
-    <text x="768" y="194" font-size="13" fill="#D6DEE8">agents/  tooling/  reversing/</text>
-    <text x="768" y="222" font-size="13" fill="#8FA2B3"><tspan fill="#38E1C9">$</tspan> <tspan fill="#38E1C9">▌</tspan></text>
+  <g font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <g class="f d1">
+      <text x="48" y="52" fill="#5B6A8C" font-size="10" letter-spacing="3.5" font-family="ui-monospace, Menlo, Consolas, monospace">CHARACTER SHEET / 01</text>
+      <text x="48" y="98" fill="#F2F6FF" font-size="40" font-weight="800" letter-spacing="2.5">GZXINGR</text>
+      <text x="50" y="122" fill="#FF8FB1" font-size="12.5" letter-spacing="1.8">安全研究员 · 本地优先派</text>
+      <text x="232" y="122" fill="#4E5B78" font-size="10" letter-spacing="1" font-family="'Yu Gothic', 'Meiryo', sans-serif">セキュリティ・リサーチャー</text>
+      <text x="50" y="140" fill="#6E7C9E" font-size="9.5" letter-spacing="1.1" font-family="ui-monospace, Menlo, Consolas, monospace">SECURITY RESEARCH / AGENT ENGINEERING / TOOLING</text>
+    </g>
+
+    <!-- 状态条 -->
+    <g class="f d2" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#7C8AAE">
+      <text x="48" y="166">REPOS</text><text x="196" y="166" fill="#C7D4EE" font-size="10">37</text>
+      <rect x="48" y="172" width="148" height="5" rx="2.5" fill="#1B2440"/>
+      <rect x="48" y="172" width="110" height="5" rx="2.5" fill="url(#b1)" class="g1"/>
+
+      <text x="48" y="194">CONTRIBS</text><text x="196" y="194" fill="#C7D4EE" font-size="10">183</text>
+      <rect x="48" y="200" width="148" height="5" rx="2.5" fill="#1B2440"/>
+      <rect x="48" y="200" width="136" height="5" rx="2.5" fill="url(#b2)" class="g1"/>
+
+      <text x="48" y="222">STARS</text><text x="196" y="222" fill="#C7D4EE" font-size="10">77</text>
+      <rect x="48" y="228" width="148" height="5" rx="2.5" fill="#1B2440"/>
+      <rect x="48" y="228" width="114" height="5" rx="2.5" fill="url(#b3)" class="g1"/>
+    </g>
+
+    <g class="f d3"><text x="466" y="52" fill="#5B6A8C" font-size="10" letter-spacing="3.5" font-family="ui-monospace, Menlo, Consolas, monospace">SKILLS / EQUIPPED</text></g>
+
+    <g class="f d4" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12.5">      <g><rect x="466" y="66" width="214" height="50" rx="10" fill="#121A31" stroke="#2E3A57"/>
+        <rect x="478" y="79" width="24" height="24" rx="6" fill="#5EE0D0" opacity="0.18"/>
+        <text x="490" y="95" fill="#5EE0D0" font-size="9.5" text-anchor="middle" font-weight="700">Go</text>
+        <text x="512" y="95" fill="#DCE6FA">Go</text><text x="512" y="109" fill="#5B6A8C" font-size="9.5">后端 · 渗透工具</text></g>
+      <g><rect x="698" y="66" width="214" height="50" rx="10" fill="#121A31" stroke="#2E3A57"/>
+        <rect x="710" y="79" width="24" height="24" rx="6" fill="#FF8FB1" opacity="0.18"/>
+        <text x="722" y="95" fill="#FF8FB1" font-size="9" text-anchor="middle" font-weight="700">TS</text>
+        <text x="744" y="95" fill="#DCE6FA">TypeScript</text><text x="744" y="109" fill="#5B6A8C" font-size="9.5">前端 · Agent UI</text></g>
+      <g><rect x="466" y="124" width="214" height="50" rx="10" fill="#121A31" stroke="#2E3A57"/>
+        <rect x="478" y="137" width="24" height="24" rx="6" fill="#9B8CFF" opacity="0.18"/>
+        <text x="490" y="153" fill="#9B8CFF" font-size="8.5" text-anchor="middle" font-weight="700">PY</text>
+        <text x="512" y="153" fill="#DCE6FA">Python</text><text x="512" y="167" fill="#5B6A8C" font-size="9.5">脚本 · 自动化</text></g>
+      <g><rect x="698" y="124" width="214" height="50" rx="10" fill="#121A31" stroke="#2E3A57"/>
+        <rect x="710" y="137" width="24" height="24" rx="6" fill="#7FB2FF" opacity="0.18"/>
+        <text x="722" y="153" fill="#7FB2FF" font-size="8.5" text-anchor="middle" font-weight="700">PS</text>
+        <text x="744" y="153" fill="#DCE6FA">PowerShell</text><text x="744" y="167" fill="#5B6A8C" font-size="9.5">Windows 系统层</text></g>
+      <g><rect x="466" y="182" width="214" height="50" rx="10" fill="#121A31" stroke="#2E3A57"/>
+        <rect x="478" y="195" width="24" height="24" rx="6" fill="#FFC24B" opacity="0.18"/>
+        <text x="490" y="211" fill="#FFC24B" font-size="8.5" text-anchor="middle" font-weight="700">JV</text>
+        <text x="512" y="211" fill="#DCE6FA">Java</text><text x="512" y="225" fill="#5B6A8C" font-size="9.5">NeoForge 模组</text></g>
+      <g><rect x="698" y="182" width="214" height="50" rx="10" fill="#121A31" stroke="#2E3A57"/>
+        <rect x="710" y="195" width="24" height="24" rx="6" fill="#5EE0D0" opacity="0.14"/>
+        <text x="722" y="211" fill="#5EE0D0" font-size="8.5" text-anchor="middle" font-weight="700">LU</text>
+        <text x="744" y="211" fill="#DCE6FA">Lua</text><text x="744" y="225" fill="#5B6A8C" font-size="9.5">Steam 清单</text></g>
+    </g>
+
+    <g class="f d5">
+      <rect x="48" y="252" width="864" height="86" rx="12" fill="#0E1730" fill-opacity="0.94" stroke="#2E3A57"/>
+      <rect x="48" y="241" width="106" height="25" rx="7" fill="#FF8FB1"/>
+      <text x="101" y="258" fill="#231023" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1.2">GZXINGR</text>
+      <text x="70" y="287" fill="#DDE6F8" font-size="14.5" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif">本地优先、在真实机器上跑得通、不靠云也能活的东西，我才写。</text>
+      <text x="70" y="311" fill="#6E7C9E" font-size="10.5" font-family="ui-monospace, Menlo, Consolas, monospace">Security research, agent engineering, and tools that verify themselves on real hardware.</text>
+      <rect class="cur" x="878" y="296" width="7" height="15" fill="#5EE0D0"/>
+    </g>
+
+    <g fill="#FF8FB1">
+      <path class="sp" d="M436 104l2.8 7.4 7.4 2.8-7.4 2.8-2.8 7.4-2.8-7.4-7.4-2.8 7.4-2.8z"/>
+      <path class="sp2" d="M932 274l2.2 5.8 5.8 2.2-5.8 2.2-2.2 5.8-2.2-5.8-5.8-2.2 5.8-2.2z"/>
+    </g>
   </g>
 </svg>
