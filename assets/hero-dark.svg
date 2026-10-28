@@ -21,14 +21,15 @@
   <rect x="1" y="1" width="958" height="428" rx="18" fill="none" stroke="#232C42"/>
 
   <g font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
-    <text x="48" y="48" fill="#5C6A88" font-size="11" letter-spacing="3" font-family="ui-monospace, Menlo, Consolas, monospace">GZXINGR — VIBE CODER / SINCE 2020</text>
+    <text x="48" y="58" fill="#E9EEF9" font-size="22" font-weight="700" letter-spacing="2">GZXINGR</text>
+    <text x="338" y="56" fill="#5C6A88" font-size="10.5" letter-spacing="2" font-family="ui-monospace, Menlo, Consolas, monospace">VIBE CODER / SINCE 2020</text>
     <text x="912" y="48" fill="#3E4A66" font-size="10" letter-spacing="2" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace">SESSION 037</text>
     <line x1="48" y1="62" x2="912" y2="62" stroke="#1C2436"/>
 
     <!-- 1 · 我 -->
     <path d="M896 96l15 10-15 10z" fill="#2C3350"/>
-    <rect x="556" y="80" width="340" height="52" rx="16" fill="#2C3350"/>
-    <text x="584" y="113" fill="#EAEFF9" font-size="15.5">想把主页重做一下，别弄成简历。</text>
+    <rect x="576" y="80" width="320" height="52" rx="16" fill="#2C3350"/>
+    <text x="604" y="113" fill="#EAEFF9" font-size="15.5">想把主页重做一下，别弄成简历。</text>
 
     <!-- 2 · AI -->
     <rect x="48" y="152" width="30" height="30" rx="9" fill="#FF8FB1" opacity="0.18"/>
@@ -47,12 +48,12 @@
     <rect x="48" y="320" width="30" height="30" rx="9" fill="#FF8FB1" opacity="0.18"/>
     <text x="63" y="340" fill="#FF8FB1" font-size="12" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">AI</text>
     <path d="M96 336l-15 10 15 10z" fill="#131A2C"/>
-    <rect x="96" y="320" width="284" height="52" rx="16" fill="#131A2C" stroke="#FF8FB1" stroke-opacity="0.5"/>
+    <rect x="96" y="320" width="272" height="52" rx="16" fill="#131A2C" stroke="#FF8FB1" stroke-opacity="0.5"/>
     <text x="122" y="353" fill="#DDE6F8" font-size="15.5">明白了。技能表就不放了。</text>
 
     <line x1="48" y1="392" x2="912" y2="392" stroke="#1C2436"/>
     <text x="48" y="414" fill="#4B5670" font-size="11" font-family="ui-monospace, Menlo, Consolas, monospace">NOW</text>
-    <text x="92" y="414" fill="#8C9AB8" font-size="11.5">在造 pi-desktop-genui · 在拆 ARTEX · 在删一半写废的东西</text>
+    <text x="92" y="414" fill="#A7B4CC" font-size="11.5">在造 pi-desktop-genui · 在拆 ARTEX · 在删一半写废的东西</text>
     <rect class="cur" x="876" y="402" width="7" height="14" fill="#5EE0D0"/>
 
     <g fill="#FF8FB1" opacity="0.55" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="11" letter-spacing="1.5">
