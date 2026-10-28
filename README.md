@@ -28,6 +28,13 @@
 ## 最近更新
 
 <!-- BEGIN:RECENT -->
+| 仓库 | 说明 | 最近推送 |
+| :--- | :--- | :--- |
+| [GzxingR](https://github.com/GzxingR/GzxingR) | GitHub 个人主页：安全研究 / AI Agent 工程 / 系统工具链 | 2026-10-28 |
+| [xuexi-power](https://github.com/GzxingR/xuexi-power) | 成绩管理系统：Next.js + Prisma 全栈实现，含桌面端封装与数据模型 | 2026-10-28 |
+| [gallery-2048](https://github.com/GzxingR/gallery-2048) | 2048 云上挑战：9.6KB 单文件零依赖游戏，键盘 + 手势双操作，localStorage 持久化最高分 | 2026-10-22 |
+| [gameboost](https://github.com/GzxingR/gameboost) | 游戏前冻结后台进程、玩完精确还原：NtSuspendProcess 真冻结 + 工作集回收 + QoS 快照，零依赖 PowerShell 5.1 + WinForms | 2026-10-13 |
+| [pi-desktop-genui](https://github.com/GzxingR/pi-desktop-genui) | dsh-genui 的 PI-Desktop 移植：把 dsh-ui JSON 规格渲染成真实可交互组件，44 种组件类型 + 手写 SVG 图表 + 动作回传模型 | 2026-09-22 |
 <!-- END:RECENT -->
 
 ## 联系
