@@ -10,9 +10,9 @@ json="$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" \
   -H "Accept: application/vnd.github+json" \
   "${API}")"
 
-block="$(printf '%s' "${json}" | jq -r '
+block="$(printf '%s' "${json}" | jq -r --arg self "${OWNER}" '
   [ .[]
-    | select(.fork == false and .archived == false and .private == false)
+    | select(.fork == false and .archived == false and .private == false and .name != $self)
   ]
   | sort_by(.pushed_at) | reverse | .[0:5]
   | "| 仓库 | 说明 | 最近推送 |\n| :--- | :--- | :--- |",
@@ -38,5 +38,11 @@ else
   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
   git add "${README}"
   git commit -m "chore: sync recent repositories"
-  git push
+  for attempt in 1 2 3; do
+    git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" && git push && exit 0
+    echo "push attempt ${attempt} failed, retrying"
+    sleep $((attempt * 3))
+  done
+  echo "push failed after retries" >&2
+  exit 1
 fi
