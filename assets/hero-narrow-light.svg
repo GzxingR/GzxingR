@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="760" viewBox="0 0 480 760" role="img" aria-label="GZXINGR：正在修改身份">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#FFFFFF"/>
+      <stop offset="0.925" stop-color="#000000"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="m"><rect x="0" y="200" width="480" height="50" fill="url(#fade)"/></mask>
+    <style>
+      .cur{animation:bl 1.15s steps(1,end) infinite}
+      @keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @media (prefers-reduced-motion: reduce){.cur{animation:none;opacity:1}}
+    </style>
+  </defs>
+
+  <rect x="12" y="12" width="456" height="736" rx="12" fill="#000000" fill-opacity="0.022" stroke="#000000" stroke-opacity="0.14"/>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#59636E">
+    <text x="36" y="48">diff --git a/me b/me</text>
+    <text x="36" y="78">--- a/me</text>
+    <text x="150" y="78">+++ b/me</text>
+    <text x="36" y="108">@@ -1 +1 @@</text>
+  </g>
+  <text x="36" y="176" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" fill="#D1242F">-</text>
+  <text x="68" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" fill="#59636E" text-decoration="line-through">安全研究 / AI Agent 工程</text>
+  <g mask="url(#m)">
+    <text x="36" y="240" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" fill="#1A7F37">+</text>
+    <text x="68" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" fill="#1A7F37">出想法 / 审代码 / 出事我背 / 出想法 /</text>
+  </g>
+  <line x1="36" y1="270" x2="444" y2="270" stroke="#000000" stroke-opacity="0.25"/>
+  <text x="36" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" font-weight="600" fill="#1F2328">想法我出，代码它写，</text>
+  <text x="36" y="378" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" font-weight="600" fill="#1F2328">出事我背。<tspan class="cur" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#1A7F37">▌</tspan></text>
+  <text x="36" y="430" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="19" fill="#59636E">最近在折腾</text>
+  <circle cx="40" cy="488" r="3" fill="#1A7F37"/>
+  <text x="56" y="494" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#1F2328">ARTEX</text>
+  <text x="56" y="520" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#59636E">AI 自主渗透，fork 后本地化</text>
+  <circle cx="40" cy="552" r="3" fill="#1A7F37"/>
+  <text x="56" y="558" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#1F2328">gameboost</text>
+  <text x="56" y="584" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#59636E">PowerShell 冻结/还原游戏进程</text>
+  <circle cx="40" cy="616" r="3" fill="#1A7F37"/>
+  <text x="56" y="622" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#1F2328">pi-desktop-genui</text>
+  <text x="56" y="648" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#59636E">JSON 规格 → 可交互组件</text>
+  <circle cx="40" cy="680" r="3" fill="#1A7F37"/>
+  <text x="56" y="686" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#1F2328">Translator-NeoForge</text>
+  <text x="56" y="712" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#59636E">NeoForge 游戏内翻译</text>
+</svg>
