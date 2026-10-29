@@ -26,11 +26,11 @@ gameboost 是一个晚上提交 12 次改出来的。pi-desktop-genui 到现在�
 <!-- BEGIN:RECENT -->
 | 仓库 | 说明 | 最近推送 |
 | :--- | :--- | :--- |
-| [xuexi-power](https://github.com/GzxingR/xuexi-power) | 成绩管理系统：Next.js + Prisma 全栈实现，含桌面端封装与数据模型 | 2026-10-28 |
 | [gallery-2048](https://github.com/GzxingR/gallery-2048) | 2048 云上挑战：9.6KB 单文件零依赖游戏，键盘 + 手势双操作，localStorage 持久化最高分 | 2026-10-22 |
 | [gameboost](https://github.com/GzxingR/gameboost) | 游戏前冻结后台进程、玩完精确还原：NtSuspendProcess 真冻结 + 工作集回收 + QoS 快照，零依赖 PowerShell 5.1 + WinForms | 2026-10-13 |
 | [pi-desktop-genui](https://github.com/GzxingR/pi-desktop-genui) | dsh-genui 的 PI-Desktop 移植：把 dsh-ui JSON 规格渲染成真实可交互组件，44 种组件类型 + 手写 SVG 图表 + 动作回传模型 | 2026-09-22 |
 | [lms-web-mechanics-lab](https://github.com/GzxingR/lms-web-mechanics-lab) | 传统 SSR 在线学习平台的机制只读研究笔记：多子域架构、SSO 与请求签名、表单数据模型、前端反自动化设计 | 2026-09-02 |
+| [rimworld-zh-translations](https://github.com/GzxingR/rimworld-zh-translations) | RimWorld 模组简体中文汉化：Adaptive Storage Framework 与 LordKuper.Common，适配 1.5 / 1.6 | 2026-08-19 |
 <!-- END:RECENT -->
 
 ## 这页怎么更新
