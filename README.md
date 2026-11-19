@@ -26,11 +26,11 @@ gameboost 是一个晚上提交 12 次改出来的。pi-desktop-genui 到现在�
 <!-- BEGIN:RECENT -->
 | 仓库 | 说明 | 最近推送 |
 | :--- | :--- | :--- |
+| [llm-frontier-radar](https://github.com/GzxingR/llm-frontier-radar) | Find models a relay serves but never lists — frontier model radar, zero-token probes, WAF-safe | 2026-11-19 |
 | [modelprobe](https://github.com/GzxingR/modelprobe) | Open-source OpenAI-compatible model availability probe and provider operations console | 2026-11-16 |
 | [portdeck](https://github.com/GzxingR/portdeck) | 本机端口总控台 — 一眼看清每个端口在干什么，并且能直接点开。零依赖 Node 服务 + 自动识别用途。 | 2026-11-14 |
 | [dsh-aesthetic-library](https://github.com/GzxingR/dsh-aesthetic-library) | DSH (DeepSeek Harness) plugin: 审美库 Tab + @ trigger, wrapping code-animation-prompts (341 styles). Integration code only; no upstream assets bundled. | 2026-11-13 |
 | [modao-open](https://github.com/GzxingR/modao-open) | Zero-dependency MIT mobile prototyping workbench in the browser: device canvas, 16 components, drag/resize/snap, click interactions, live preview, PNG/JSON export, BYO API key AI. | 2026-11-12 |
-| [gallery-2048](https://github.com/GzxingR/gallery-2048) | 2048 云上挑战：9.6KB 单文件零依赖游戏，键盘 + 手势双操作，localStorage 持久化最高分 | 2026-10-22 |
 <!-- END:RECENT -->
 
 ## 这页怎么更新
